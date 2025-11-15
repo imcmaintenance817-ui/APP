@@ -1,0 +1,1057 @@
+Line,Area,Equipment Type,Equipment
+164D Line,Door,CO2 ,CO2 3
+164D Line,Door,PLC Jig,WFH
+164D Line,Door,PLC Jig,WFE LH
+164D Line,Door,PLC Jig,WFE RH
+164D Line,Door,PLC Jig,WRE RH
+164D Line,Door,PLC Jig,WRE LH
+164D Line,Door,Pneumatic Jig,WHF
+164D Line,Door,Pneumatic Jig,WEA RH
+164D Line,Door,Pneumatic Jig,WEA LH
+164D Line,Door,Pneumatic Jig,WFF RH
+164D Line,Door,Pneumatic Jig,WFF LH
+164D Line,Door,Pneumatic Jig,WRE/ WRG RH
+164D Line,Door,Pneumatic Jig,WRE/ WRG LH
+164D Line,Door,Sealer Pump,SP 01
+164D Line,Door,Sealer Pump,SP 02
+164D Line,Door,Spot Welding System,PSWS 57
+164D Line,Door,Spot Welding System,PSWS 58
+164D Line,Door,Spot Welding System,PSWS 59
+164D Line,Door,Spot Welding System,PSWS 60
+164D Line,Door,Spot Welding System,PSWS 61
+164D Line,Door,Spot Welding System,PSWS 62
+164D Line,Door,Spot Welding System,PSWS 63
+164D Line,Door,Spot Welding System,PSWS 64
+164D Line,Door,Spot Welding System,PSWS 65
+164D Line,Door,Spot Welding System,PSWS 66
+164D Line,Door,Spot Welding System,PSWS 67
+164D Line,Door,Spot Welding System,PSWS 68
+164D Line,Door,Roller Hemming Robot,Robot (2-1)
+164D Line,Door,Roller Hemming Robot,Robot (4-1)
+164D Line,Door,Roller Hemming Robot,Robot (3-1)
+164D Line,Door,Roller Hemming Robot,Robot (3-2)
+164D Line,Door,Roller Hemming Robot,Robot (3-3)
+164D Line,Door,Roller Hemming Robot,Robot (3-4)
+164D Line,Door,Other,Other
+164D Line,Main Body and UBA,CO2,CO2 4
+164D Line,Main Body and UBA,CO2,CO2 5
+164D Line,Main Body and UBA,Hoist,H 15
+164D Line,Main Body and UBA,Hoist,H 16
+164D Line,Main Body and UBA,Manual Jig,MRA
+164D Line,Main Body and UBA,M-Tack,M Tack
+164D Line,Main Body and UBA,Pneumatic Jig,UBA
+164D Line,Main Body and UBA,Sealer Pump,SP 4
+164D Line,Main Body and UBA,Spot Welding System,PSWS 97
+164D Line,Main Body and UBA,Spot Welding System,PSWS 98
+164D Line,Main Body and UBA,Spot Welding System,PSWS 99
+164D Line,Main Body and UBA,Spot Welding System,PSWS 100
+164D Line,Main Body and UBA,Spot Welding System,PSWS 101
+164D Line,Main Body and UBA,Spot Welding System,PSWS 102
+164D Line,Main Body and UBA,Spot Welding System,PSWS 103
+164D Line,Main Body and UBA,Spot Welding System,PSWS 104
+164D Line,Main Body and UBA,Spot Welding System,PSWS 105
+164D Line,Main Body and UBA,Spot Welding System,PSWS 106
+164D Line,Main Body and UBA,Spot Welding System,PSWS 107
+164D Line,Main Body and UBA,Spot Welding System,PSWS 108
+164D Line,Main Body and UBA,Spot Welding System,PSWS 109
+164D Line,Main Body and UBA,Spot Welding System,PSWS 110
+164D Line,Main Body and UBA,Spot Welding System,PSWS 111
+164D Line,Main Body and UBA,Spot Welding System,PSWS 112
+164D Line,Main Body and UBA,Spot Welding System,PSWS 113
+164D Line,Main Body and UBA,Spot Welding System,PSWS 114
+164D Line,Main Body and UBA,Spot Welding System,PSWS 115
+164D Line,Main Body and UBA,Spot Welding System,PSWS 116
+164D Line,Main Body and UBA,Spot Welding System,PSWS 117
+164D Line,Main Body and UBA,Spot Welding System,PSWS 118
+164D Line,Main Body and UBA,Spot Welding System,PSWS 119
+164D Line,Main Body and UBA,Spot Welding System,PSWS 120
+164D Line,Main Body and UBA,Spot Welding System,PSWS 121
+164D Line,Main Body and UBA,Spot Welding System,PSWS 122
+164D Line,Main Body and UBA,Other,Other
+164D Line,Side Member RH/ LH,Hoist ,H 11
+164D Line,Side Member RH/ LH,Hoist ,H 12
+164D Line,Side Member RH/ LH,Hoist ,H 13
+164D Line,Side Member RH/ LH,Hoist ,H 14
+164D Line,Side Member RH/ LH,PLC Jig,SWC LH
+164D Line,Side Member RH/ LH,PLC Jig,SMA RH
+164D Line,Side Member RH/ LH,PLC Jig,SMA LH
+164D Line,Side Member RH/ LH,PLC Jig,SWC RH
+164D Line,Side Member RH/ LH,Pneumatic,SWA LH
+164D Line,Side Member RH/ LH,Pneumatic,SRB LH
+164D Line,Side Member RH/ LH,Pneumatic,SRA LH
+164D Line,Side Member RH/ LH,Pneumatic,SCA LH
+164D Line,Side Member RH/ LH,Pneumatic,STA LH
+164D Line,Side Member RH/ LH,Pneumatic,SOA LH
+164D Line,Side Member RH/ LH,Pneumatic,SOA RH
+164D Line,Side Member RH/ LH,Pneumatic,SCA RH
+164D Line,Side Member RH/ LH,Pneumatic,SWA RH
+164D Line,Side Member RH/ LH,Pneumatic,SRA RH
+164D Line,Side Member RH/ LH,Sealer Pump,SP 3
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 69
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 70
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 71
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 72
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 73
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 74
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 75
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 76
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 77
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 78
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 79
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 80
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 81
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 82
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 83
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 84
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 85
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 86
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 87
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 88
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 89
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 90
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 91
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 92
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 93
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 94
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 95
+164D Line,Side Member RH/ LH,Spot Welding System,PSWS 96
+164D Line,Side Member RH/ LH,SSW,SSW 5
+164D Line,Side Member RH/ LH,SSW,SSW 6
+164D Line,Side Member RH/ LH,SSW,SSW 7
+164D Line,Side Member RH/ LH,Stud Welder,SW 5
+164D Line,Side Member RH/ LH,Stud Welder,SW 6
+164D Line,Side Member RH/ LH,Other,Other
+164D Line,Under Body,CO2,CO2# 1
+164D Line,Under Body,CO2,CO2# 2
+164D Line,Under Body,Hoist,Hoist 1
+164D Line,Under Body,Hoist,Hoist 2
+164D Line,Under Body,Hoist,Hoist 3
+164D Line,Under Body,Hoist,Hoist 4
+164D Line,Under Body,Hoist,Hoist 5
+164D Line,Under Body,Hoist,Hoist 6
+164D Line,Under Body,Manual Jig,UFH RH
+164D Line,Under Body,Manual Jig,UFH LH
+164D Line,Under Body,Manual Jig,UFC-1
+164D Line,Under Body,PLC Jig,UMB RH
+164D Line,Under Body,PLC Jig,UAB RH
+164D Line,Under Body,PLC Jig,EUEA
+164D Line,Under Body,PLC Jig,UMB LH
+164D Line,Under Body,Number Punching Machine,Number Punching
+164D Line,Under Body,PLC Jig,UFB RH
+164D Line,Under Body,PLC Jig,UFB LH
+164D Line,Under Body,Pneumatic Jig,UEA RH
+164D Line,Under Body,Pneumatic Jig,UMA 
+164D Line,Under Body,Pneumatic Jig,UAB-A RH
+164D Line,Under Body,Pneumatic Jig,UAA RH
+164D Line,Under Body,Pneumatic Jig,UAC RH
+164D Line,Under Body,Pneumatic Jig,UAD RH
+164D Line,Under Body,Pneumatic Jig,URB/ URC
+164D Line,Under Body,Pneumatic Jig,URA
+164D Line,Under Body,Pneumatic Jig,UAA LH
+164D Line,Under Body,Pneumatic Jig,UMA 
+164D Line,Under Body,Pneumatic Jig,UAE LH
+164D Line,Under Body,Pneumatic Jig,UAB LH
+164D Line,Under Body,Pneumatic Jig,UAB-A LH
+164D Line,Under Body,Pneumatic Jig,UAD LH
+164D Line,Under Body,Pneumatic Jig,UAC LH
+164D Line,Under Body,Pneumatic Jig,UDB
+164D Line,Under Body,Pneumatic Jig,UDC
+164D Line,Under Body,Pneumatic Jig,UDA
+164D Line,Under Body,Pneumatic Jig,UFD RH
+164D Line,Under Body,Pneumatic Jig,UFF RH
+164D Line,Under Body,Pneumatic Jig,UFA RH
+164D Line,Under Body,Pneumatic Jig,UFF LH
+164D Line,Under Body,Pneumatic Jig,UFD LH
+164D Line,Under Body,Pneumatic Jig,UFC
+164D Line,Under Body,Spot Welding System,PSWS # 1
+164D Line,Under Body,Spot Welding System,PSWS # 2
+164D Line,Under Body,Spot Welding System,PSWS # 3
+164D Line,Under Body,Spot Welding System,PSWS # 4
+164D Line,Under Body,Spot Welding System,PSWS # 5
+164D Line,Under Body,Spot Welding System,PSWS # 6
+164D Line,Under Body,Spot Welding System,PSWS # 7
+164D Line,Under Body,Spot Welding System,PSWS # 8
+164D Line,Under Body,Spot Welding System,PSWS # 9
+164D Line,Under Body,Spot Welding System,PSWS # 10
+164D Line,Under Body,Spot Welding System,PSWS # 11
+164D Line,Under Body,Spot Welding System,PSWS # 12
+164D Line,Under Body,Spot Welding System,PSWS # 13
+164D Line,Under Body,Spot Welding System,PSWS # 14
+164D Line,Under Body,Spot Welding System,PSWS # 15
+164D Line,Under Body,Spot Welding System,PSWS # 16
+164D Line,Under Body,Spot Welding System,PSWS # 17
+164D Line,Under Body,Spot Welding System,PSWS # 18
+164D Line,Under Body,Spot Welding System,PSWS # 19
+164D Line,Under Body,Spot Welding System,PSWS # 20
+164D Line,Under Body,Spot Welding System,PSWS # 21
+164D Line,Under Body,Spot Welding System,PSWS # 22
+164D Line,Under Body,Spot Welding System,PSWS # 23
+164D Line,Under Body,Spot Welding System,PSWS # 24
+164D Line,Under Body,Spot Welding System,PSWS # 25
+164D Line,Under Body,Spot Welding System,PSWS # 26
+164D Line,Under Body,Spot Welding System,PSWS # 27
+164D Line,Under Body,Spot Welding System,PSWS # 28
+164D Line,Under Body,Spot Welding System,PSWS # 29
+164D Line,Under Body,Spot Welding System,PSWS # 30
+164D Line,Under Body,Spot Welding System,PSWS # 31
+164D Line,Under Body,Spot Welding System,PSWS # 32
+164D Line,Under Body,Spot Welding System,PSWS # 33
+164D Line,Under Body,Spot Welding System,PSWS # 34
+164D Line,Under Body,Spot Welding System,PSWS # 35
+164D Line,Under Body,Spot Welding System,PSWS # 36
+164D Line,Under Body,Spot Welding System,PSWS # 37
+164D Line,Under Body,Spot Welding System,PSWS # 38
+164D Line,Under Body,Spot Welding System,PSWS # 39
+164D Line,Under Body,Spot Welding System,PSWS # 40
+164D Line,Under Body,Spot Welding System,PSWS # 41
+164D Line,Under Body,Spot Welding System,PSWS # 42
+164D Line,Under Body,Spot Welding System,PSWS # 43
+164D Line,Under Body,SSW,SSW # 1
+164D Line,Under Body,SSW,SSW # 2
+164D Line,Under Body,SSW,SSW # 3
+164D Line,Under Body,SSW,SSW # 4
+164D Line,Under Body,SSW,SSW # 5
+164D Line,Under Body,SSW,SSW # 6
+164D Line,Under Body,SSW,SSW # 7
+164D Line,Under Body,Stud Welder,SW 1
+164D Line,Under Body,Stud Welder,SW 2
+164D Line,Under Body,Stud Welder,SW 3
+164D Line,Under Body,Auto Stud,Auto Stud
+164D Line,Under Body,Other,Other
+164D Line,Under Rear,Hoist,H 7
+164D Line,Under Rear,Hoist,H 8
+164D Line,Under Rear,Hoist,H 9
+164D Line,Under Rear,Hoist,H 10
+164D Line,Under Rear,Under Rear Robot,Under Rear Robot (URT1-1)
+164D Line,Under Rear,Under Rear Robot,Under Rear Robot (URT1-2)
+164D Line,Under Rear,PLC Jig,UUB 
+164D Line,Under Rear,PLC Jig,UUC
+164D Line,Under Rear,PLC Jig,UUG LH
+164D Line,Under Rear,PLC Jig,UUE
+164D Line,Under Rear,PLC Jig,UUG RH
+164D Line,Under Rear,Pneumatic Jig,UUJ
+164D Line,Under Rear,Pneumatic Jig,UUF LH
+164D Line,Under Rear,Pneumatic Jig,UUF RH
+164D Line,Under Rear,Spot Welding System,PSWS 44
+164D Line,Under Rear,Spot Welding System,PSWS 45
+164D Line,Under Rear,Spot Welding System,PSWS 46
+164D Line,Under Rear,Spot Welding System,PSWS 47
+164D Line,Under Rear,Spot Welding System,PSWS 48
+164D Line,Under Rear,Spot Welding System,PSWS 49
+164D Line,Under Rear,Spot Welding System,PSWS 50
+164D Line,Under Rear,Spot Welding System,PSWS 51
+164D Line,Under Rear,Spot Welding System,PSWS 52
+164D Line,Under Rear,Spot Welding System,PSWS 53
+164D Line,Under Rear,Spot Welding System,PSWS 54
+164D Line,Under Rear,Spot Welding System,PSWS 55
+164D Line,Under Rear,Spot Welding System,PSWS 56
+164D Line,Under Rear,SSW,SSW 8
+164D Line,Under Rear,Stud Welder,SW 4
+164D Line,Under Rear,Other,Other
+Corolla,Door Hemming Area,Brazing Station,Brazing Station # 1
+Corolla,Door Hemming Area,Brazing Station,Brazing Station # 2
+Corolla,Door Hemming Area,CO2,Co2 # 9
+Corolla,Door Hemming Area,ENERPAC ,WEA RH
+Corolla,Door Hemming Area,ENERPAC ,WEA LH
+Corolla,Door Hemming Area,Hemming Machine,Door Hemming LH
+Corolla,Door Hemming Area,Hemming Machine,Door Hemming RH
+Corolla,Door Hemming Area,Hemming Machine,Hood and Luggage
+Corolla,Door Hemming Area,Piercing Machine,WRI
+Corolla,Door Hemming Area,Piercing Machine,WLD
+Corolla,Door Hemming Area,Pneumatic Jig,WFA RH
+Corolla,Door Hemming Area,Pneumatic Jig,WFE RH
+Corolla,Door Hemming Area,Pneumatic Jig,WFF RH
+Corolla,Door Hemming Area,Pneumatic Jig,WFH RH
+Corolla,Door Hemming Area,Pneumatic Jig,WFG RH
+Corolla,Door Hemming Area,Pneumatic Jig,WRF RH
+Corolla,Door Hemming Area,Pneumatic Jig,WRE RH
+Corolla,Door Hemming Area,Pneumatic Jig,WRE LH
+Corolla,Door Hemming Area,Pneumatic Jig,WRF LH
+Corolla,Door Hemming Area,Pneumatic Jig,WRG LH
+Corolla,Door Hemming Area,Pneumatic Jig,WFH LH
+Corolla,Door Hemming Area,Pneumatic Jig,WFF LH
+Corolla,Door Hemming Area,Pneumatic Jig,WFE LH
+Corolla,Door Hemming Area,Pneumatic Jig,WFA LH
+Corolla,Door Hemming Area,Pneumatic Jig,WLD
+Corolla,Door Hemming Area,Pneumatic Jig,WEF
+Corolla,Door Hemming Area,Pneumatic Jig,WHE
+Corolla,Door Hemming Area,Pneumatic Jig,WLF
+Corolla,Door Hemming Area,Pneumatic Jig,WLE
+Corolla,Door Hemming Area,Sealer Pump,Sealer Pump # 4
+Corolla,Door Hemming Area,Sealer Pump,Sealer Pump # 5
+Corolla,Door Hemming Area,Spot Welding System,PSWS 01
+Corolla,Door Hemming Area,Spot Welding System,PSWS 02
+Corolla,Door Hemming Area,Spot Welding System,PSWS 03
+Corolla,Door Hemming Area,Spot Welding System,PSWS 04
+Corolla,Door Hemming Area,Spot Welding System,PSWS 05
+Corolla,Door Hemming Area,Spot Welding System,PSWS 06
+Corolla,Door Hemming Area,Spot Welding System,PSWS 07
+Corolla,Door Hemming Area,Spot Welding System,PSWS 08
+Corolla,Door Hemming Area,Spot Welding System,PSWS 09
+Corolla,Door Hemming Area,Spot Welding System,PSWS 10
+Corolla,Door Hemming Area,Spot Welding System,PSWS 11
+Corolla,Door Hemming Area,Spot Welding System,PSWS 12
+Corolla,Door Hemming Area,Spot Welding System,PSWS 13
+Corolla,Door Hemming Area,Spot Welding System,PSWS 14
+Corolla,Door Hemming Area,Spot Welding System,PSWS 15
+Corolla,Door Hemming Area,Spot Welding System,PSWS 16
+Corolla,Door Hemming Area,Spot Welding System,PSWS 17
+Corolla,Door Hemming Area,Spot Welding System,PSWS 18
+Corolla,Door Hemming Area,Spot Welding System,PSWS 19
+Corolla,Door Hemming Area,Spot Welding System,PSWS 20
+Corolla,Door Hemming Area,Spot Welding System,PSWS 21
+Corolla,Door Hemming Area,Other,Other
+Corolla,Main Body,PLC Jig,MRA
+Corolla,Main Body,CO2,CO2 # 6
+Corolla,Main Body,CO2,CO2 # 7
+Corolla,Main Body,CO2,CO2 # 8
+Corolla,Main Body,Hemming Machine,MOON ROOF
+Corolla,Main Body,Hoist,C 17
+Corolla,Main Body,Hoist,C 18
+Corolla,Main Body,Hoist,C 19
+Corolla,Main Body,Manual Jig,MRA
+Corolla,Main Body,Manual Jig,MRB
+Corolla,Main Body,M Tack,M-TACK
+Corolla,Main Body,Sealer Pump,Sealer Pump # 3
+Corolla,Main Body,Spot Welding System,PSWS 107A
+Corolla,Main Body,Spot Welding System,PSWS 107B
+Corolla,Main Body,Spot Welding System,PSWS 107
+Corolla,Main Body,Spot Welding System,PSWS 108
+Corolla,Main Body,Spot Welding System,PSWS 109A
+Corolla,Main Body,Spot Welding System,PSWS 109B
+Corolla,Main Body,Spot Welding System,PSWS 109
+Corolla,Main Body,Spot Welding System,PSWS 110
+Corolla,Main Body,Spot Welding System,PSWS 111
+Corolla,Main Body,Spot Welding System,PSWS 112
+Corolla,Main Body,Spot Welding System,PSWS 113
+Corolla,Main Body,Spot Welding System,PSWS 114
+Corolla,Main Body,Spot Welding System,PSWS 115
+Corolla,Main Body,Spot Welding System,PSWS 116
+Corolla,Main Body,Spot Welding System,PSWS 117
+Corolla,Main Body,Spot Welding System,PSWS 118A
+Corolla,Main Body,Spot Welding System,PSWS 118
+Corolla,Main Body,Spot Welding System,PSWS 119
+Corolla,Main Body,Spot Welding System,PSWS 120
+Corolla,Main Body,Spot Welding System,PSWS 121
+Corolla,Main Body,Spot Welding System,PSWS 122
+Corolla,Main Body,Spot Welding System,PSWS 123
+Corolla,Main Body,Spot Welding System,PSWS 124
+Corolla,Main Body,Spot Welding System,PSWS 125
+Corolla,Main Body,Spot Welding System,PSWS 126
+Corolla,Main Body,Spot Welding System,PSWS 127
+Corolla,Main Body,Spot Welding System,PSWS 128
+Corolla,Main Body,Spot Welding System,PSWS 129
+Corolla,Main Body,Spot Welding System,PSWS 130
+Corolla,Main Body,Spot Welding System,PSWS 131
+Corolla,Main Body,Spot Welding System,PSWS 132
+Corolla,Main Body,Scissor Lifter,Scissor Lifter 1
+Corolla,Main Body,Scissor Lifter,Scissor Lifter 2
+Corolla,Main Body,Other,Other
+Corolla,Shell Body,Brazing Station,Brazing Station # 3
+Corolla,Shell Body,Conveyer,Shell body 
+Corolla,Shell Body,Other,Other
+Corolla,Side Member RH,Hydrolic punching machine,Enerpac
+Corolla,Side Member LH,Hydrolic punching machine,Enerpac
+Corolla,Side Member LH,CO2,CO2 # 4
+Corolla,Side Member LH,Hoist,C 11
+Corolla,Side Member LH,Hoist,C 12
+Corolla,Side Member LH,Hoist,C 13
+Corolla,Side Member LH,Piercing Machine,SWA-1
+Corolla,Side Member LH,Piercing Machine,SWB LH
+Corolla,Side Member LH,PLC Jig,SMB
+Corolla,Side Member RH,PLC Jig,SMC-1
+Corolla,Side Member LH,PLC Jig,SMC-1
+Corolla,Side Member LH,PLC Jig,SMC
+Corolla,Side Member LH,Pneumatic Jig,SWB
+Corolla,Side Member LH,Pneumatic Jig,SWB-1
+Corolla,Side Member LH,Pneumatic Jig,SWE
+Corolla,Side Member LH,Pneumatic Jig,SWG
+Corolla,Side Member LH,Pneumatic Jig,SWA
+Corolla,Side Member LH,Pneumatic Jig,SRA
+Corolla,Side Member LH,Pneumatic Jig,SWD
+Corolla,Side Member LH,Pneumatic Jig,SOA
+Corolla,Side Member LH,Sealer Pump,Sealer Pump # 1
+Corolla,Side Member RH,Spot Welding System,PSWS 62
+Corolla,Side Member RH,Spot Welding System,PSWS 63
+Corolla,Side Member RH,Spot Welding System,PSWS 64
+Corolla,Side Member RH,Spot Welding System,PSWS 65
+Corolla,Side Member RH,Spot Welding System,PSWS 66A
+Corolla,Side Member RH,Spot Welding System,PSWS 66
+Corolla,Side Member RH,Spot Welding System,PSWS 67
+Corolla,Side Member RH,Spot Welding System,PSWS 68
+Corolla,Side Member RH,Spot Welding System,PSWS 69
+Corolla,Side Member RH,Spot Welding System,PSWS 70
+Corolla,Side Member RH,Spot Welding System,PSWS 71
+Corolla,Side Member RH,Spot Welding System,PSWS 72
+Corolla,Side Member RH,Spot Welding System,PSWS 73
+Corolla,Side Member RH,Spot Welding System,PSWS 74
+Corolla,Side Member RH,Spot Welding System,PSWS 75
+Corolla,Side Member RH,Spot Welding System,PSWS 76
+Corolla,Side Member RH,Spot Welding System,PSWS 77
+Corolla,Side Member RH,Spot Welding System,PSWS 78
+Corolla,Side Member RH,Spot Welding System,PSWS 79
+Corolla,Side Member RH,Spot Welding System,PSWS 80
+Corolla,Side Member LH,Spot Welding System,PSWS 81
+Corolla,Side Member LH,Spot Welding System,PSWS 82
+Corolla,Side Member LH,Spot Welding System,PSWS 83
+Corolla,Side Member RH,CO2,CO2 # 5
+Corolla,Side Member RH,Hoist,C 14
+Corolla,Side Member RH,Hoist,C 15
+Corolla,Side Member RH,Hoist,C 16
+Corolla,Side Member RH,Piercing Machine,SWA-1
+Corolla,Side Member RH,Piercing Machine,SWB RH
+Corolla,Side Member RH,PLC Jig,SMB
+Corolla,Side Member RH,PLC Jig,SMC
+Corolla,Side Member RH,Pneumatic Jig,SWG
+Corolla,Side Member RH,Pneumatic Jig,SWF
+Corolla,Side Member RH,Pneumatic Jig,SMD
+Corolla,Side Member RH,Pneumatic Jig,SWB
+Corolla,Side Member RH,Pneumatic Jig,SWE
+Corolla,Side Member RH,Pneumatic Jig,SWA
+Corolla,Side Member RH,Pneumatic Jig,SWA-1
+Corolla,Side Member RH,Pneumatic Jig,SOA
+Corolla,Side Member RH,Pneumatic Jig,MCA
+Corolla,Side Member RH,Pneumatic Jig,MCB
+Corolla,Side Member RH,Pneumatic Jig,MCC
+Corolla,Side Member RH,Sealer Pump,Sealer Pump # 2
+Corolla,Side Member RH,Other,Other
+Corolla,Side Member LH,Spot Welding System,PSWS 82
+Corolla,Side Member LH,Spot Welding System,PSWS 83
+Corolla,Side Member LH,Spot Welding System,PSWS 84
+Corolla,Side Member LH,Spot Welding System,PSWS 85
+Corolla,Side Member LH,Spot Welding System,PSWS 86
+Corolla,Side Member LH,Spot Welding System,PSWS 87
+Corolla,Side Member LH,Spot Welding System,PSWS 88
+Corolla,Side Member LH,Spot Welding System,PSWS 89
+Corolla,Side Member LH,Spot Welding System,PSWS 90
+Corolla,Side Member LH,Spot Welding System,PSWS 91
+Corolla,Side Member LH,Spot Welding System,PSWS 92
+Corolla,Side Member LH,Spot Welding System,PSWS 93
+Corolla,Side Member LH,Spot Welding System,PSWS 94
+Corolla,Side Member LH,Spot Welding System,PSWS 95
+Corolla,Side Member LH,Spot Welding System,PSWS 96
+Corolla,Side Member LH,Spot Welding System,PSWS 97
+Corolla,Side Member LH,Spot Welding System,PSWS 97A
+Corolla,Side Member LH,Spot Welding System,PSWS 98
+Corolla,Side Member LH,Spot Welding System,PSWS 99
+Corolla,Side Member LH,Spot Welding System,PSWS 100
+Corolla,Side Member LH,Spot Welding System,PSWS 101
+Corolla,Side Member LH,Other,Other
+Corolla,Under body,Auto Stud,UDB-1
+Corolla,Under body,CO2,CO2 # 1
+Corolla,Under body,CO2,CO2 # 2
+Corolla,Under body,CO2,CO2 # 3
+Corolla,Under body,Hoist,C 1
+Corolla,Under body,Hoist,C 2
+Corolla,Under body,Hoist,C 3
+Corolla,Under body,Hoist,C 4
+Corolla,Under body,Hoist,C 5
+Corolla,Under body,Hoist,C 6
+Corolla,Under body,Hoist,C 7
+Corolla,Under body,Hoist,C 8
+Corolla,Under body,Hoist,C 9
+Corolla,Under body,Hoist,C 10
+Corolla,Under body,Manual Jig,URB
+Corolla,Under body,Manual Jig,URC
+Corolla,Under body,Manual Jig,UUL
+Corolla,Under body,Manual Jig,UUJ
+Corolla,Under body,Manual Jig,UUE
+Corolla,Under body,Manual Jig,UUA-1
+Corolla,Under body,Manual Jig,URE
+Corolla,Under body,Manual Jig,UFC-1
+Corolla,Under body,Manual Jig,UBA-1
+Corolla,Under body,Number Punching Machine,UFD
+Corolla,Under body,Piercing Machine,UMD RH
+Corolla,Under body,Piercing Machine,UMD LH
+Corolla,Under body,Piercing Machine,UMD RH
+Corolla,Under body,Piercing Machine,UUK
+Corolla,Under body,Piercing Machine,UUK-1
+Corolla,Under body,PLC Jig,UEA
+Corolla,Under body,PLC Jig,UBA
+Corolla,Under body,Pneumatic Jig,UMF RH
+Corolla,Under body,Pneumatic Jig,UME RH
+Corolla,Under body,Pneumatic Jig,UMC RH
+Corolla,Under body,Pneumatic Jig,UAC RH
+Corolla,Under body,Pneumatic Jig,UAC RH
+Corolla,Under body,Pneumatic Jig,UMA RH
+Corolla,Under body,Pneumatic Jig,URA
+Corolla,Under body,Pneumatic Jig,URD RH/ LH
+Corolla,Under body,Pneumatic Jig,UMF LH
+Corolla,Under body,Pneumatic Jig,UME LH
+Corolla,Under body,Pneumatic Jig,UMC LH
+Corolla,Under body,Pneumatic Jig,UMA LH
+Corolla,Under body,Pneumatic Jig,UAC LH
+Corolla,Under body,Pneumatic Jig,UAB LH
+Corolla,Under body,Pneumatic Jig,UAD
+Corolla,Under body,Pneumatic Jig,UDB
+Corolla,Under body,Pneumatic Jig,STA R/L
+Corolla,Under body,Pneumatic Jig,STA LH
+Corolla,Under body,Pneumatic Jig,SFA RH
+Corolla,Under body,Pneumatic Jig,SOA RH
+Corolla,Under body,Pneumatic Jig,SOA LH
+Corolla,Under body,Pneumatic Jig,UUH
+Corolla,Under body,Pneumatic Jig,UUI
+Corolla,Under body,Pneumatic Jig,UUD LH
+Corolla,Under body,Pneumatic Jig,UUC LH
+Corolla,Under body,Pneumatic Jig,UUD RH
+Corolla,Under body,Pneumatic Jig,UUC RH
+Corolla,Under body,Pneumatic Jig,UUB
+Corolla,Under body,Pneumatic Jig,UUG
+Corolla,Under body,Pneumatic Jig,UUA
+Corolla,Under body,Pneumatic Jig,UAA RH
+Corolla,Under body,Pneumatic Jig,UAA LH
+Corolla,Under body,Pneumatic Jig,UEA-1
+Corolla,Under body,Pneumatic Jig,UFJ R/L
+Corolla,Under body,Pneumatic Jig,UFB
+Corolla,Under body,Pneumatic Jig,UFA
+Corolla,Under body,Pneumatic Jig,UFA-1
+Corolla,Under body,Spot Welding System,PSWS 01
+Corolla,Under body,Spot Welding System,PSWS 02
+Corolla,Under body,Spot Welding System,PSWS 03
+Corolla,Under body,Spot Welding System,PSWS 04
+Corolla,Under body,Spot Welding System,PSWS 05
+Corolla,Under body,Spot Welding System,PSWS 06
+Corolla,Under body,Spot Welding System,PSWS 07
+Corolla,Under body,Spot Welding System,PSWS 08
+Corolla,Under body,Spot Welding System,PSWS 09
+Corolla,Under body,Spot Welding System,PSWS 10
+Corolla,Under body,Spot Welding System,PSWS 11
+Corolla,Under body,Spot Welding System,PSWS 12
+Corolla,Under body,Spot Welding System,PSWS 13
+Corolla,Under body,Spot Welding System,PSWS 14
+Corolla,Under body,Spot Welding System,PSWS 15
+Corolla,Under body,Spot Welding System,PSWS 16
+Corolla,Under body,Spot Welding System,PSWS 17
+Corolla,Under body,Spot Welding System,PSWS 18
+Corolla,Under body,Spot Welding System,PSWS 19
+Corolla,Under body,Spot Welding System,PSWS 20
+Corolla,Under body,Spot Welding System,PSWS 21
+Corolla,Under body,Spot Welding System,PSWS 22
+Corolla,Under body,Spot Welding System,PSWS 23
+Corolla,Under body,Spot Welding System,PSWS 24
+Corolla,Under body,Spot Welding System,PSWS 25
+Corolla,Under body,Spot Welding System,PSWS 26
+Corolla,Under body,Spot Welding System,PSWS 27
+Corolla,Under body,Spot Welding System,PSWS 28
+Corolla,Under body,Spot Welding System,PSWS 29
+Corolla,Under body,Spot Welding System,PSWS 30
+Corolla,Under body,Spot Welding System,PSWS 31
+Corolla,Under body,Spot Welding System,PSWS 32
+Corolla,Under body,Spot Welding System,PSWS 33
+Corolla,Under body,Spot Welding System,PSWS 34
+Corolla,Under body,Spot Welding System,PSWS 35
+Corolla,Under body,Spot Welding System,PSWS 36
+Corolla,Under body,Spot Welding System,PSWS 37
+Corolla,Under body,Spot Welding System,PSWS 38
+Corolla,Under body,Spot Welding System,PSWS 39
+Corolla,Under body,Spot Welding System,PSWS 40
+Corolla,Under body,Spot Welding System,PSWS 41
+Corolla,Under body,Spot Welding System,PSWS 42
+Corolla,Under body,Spot Welding System,PSWS 43
+Corolla,Under body,Spot Welding System,PSWS 44
+Corolla,Under body,Spot Welding System,PSWS 45
+Corolla,Under body,Spot Welding System,PSWS 46
+Corolla,Under body,Spot Welding System,PSWS 47
+Corolla,Under body,Spot Welding System,PSWS 48
+Corolla,Under body,Spot Welding System,PSWS 49
+Corolla,Under body,Spot Welding System,PSWS 50
+Corolla,Under body,Spot Welding System,PSWS 51
+Corolla,Under body,Spot Welding System,PSWS 52
+Corolla,Under body,Spot Welding System,PSWS 53
+Corolla,Under body,Spot Welding System,PSWS 54
+Corolla,Under body,Spot Welding System,PSWS 55
+Corolla,Under body,Spot Welding System,PSWS 56
+Corolla,Under body,Spot Welding System,PSWS 57
+Corolla,Under body,Spot Welding System,PSWS 58
+Corolla,Under body,Spot Welding System,PSWS 59
+Corolla,Under body,Spot Welding System,PSWS 60
+Corolla,Under body,Spot Welding System,PSWS 61
+Corolla,Under body,Spot Welding System,PSWS 62
+Corolla,Under body,Spot Welding System,PSWS 63
+Corolla,Under body,Spot Welding System,PSWS 64
+Corolla,Under body,Spot Welding System,PSWS 65
+Corolla,Under body,SSW,Nut Feeder 1
+Corolla,Under body,SSW,Nut Feeder 2
+Corolla,Under body,Stud Welder,UMD-1 LH
+Corolla,Under body,Stud Welder,UUA-I
+Corolla,Under body,Other,Other
+IMV,Deck,CO2,CO2 # 3
+IMV,Deck,CO2,CO2 # 4
+IMV,Deck,Hoist,H 6
+IMV,Deck,Hoist,H 7
+IMV,Deck,Hoist,H 8
+IMV,Deck,Manual Jig,DFB
+IMV,Deck,PLC Jig,DSA RH
+IMV,Deck,PLC Jig,DSB RH
+IMV,Deck,PLC Jig,DSC RH
+IMV,Deck,PLC Jig,DSC LH
+IMV,Deck,Pneumatic Jig,DSA LH
+IMV,Deck,Pneumatic Jig,DSB LH
+IMV,Deck,Pneumatic Jig,DFC
+IMV,Deck,Pneumatic Jig,DAA
+IMV,Deck,Pneumatic Jig,DAA-1
+IMV,Deck,Pneumatic Jig,DAA-2
+IMV,Deck,Spot Welding System,PSWS 1
+IMV,Deck,Spot Welding System,PSWS 2
+IMV,Deck,Spot Welding System,PSWS 3
+IMV,Deck,Spot Welding System,PSWS 4
+IMV,Deck,Spot Welding System,PSWS 5
+IMV,Deck,Spot Welding System,PSWS 6
+IMV,Deck,Spot Welding System,PSWS 7
+IMV,Deck,Spot Welding System,PSWS 8
+IMV,Deck,Spot Welding System,PSWS 9
+IMV,Deck,Spot Welding System,PSWS 10
+IMV,Deck,Spot Welding System,PSWS 11
+IMV,Deck,Spot Welding System,PSWS 12
+IMV,Deck,Spot Welding System,PSWS 13
+IMV,Deck,Spot Welding System,PSWS 14
+IMV,Deck,Spot Welding System,PSWS 15
+IMV,Deck,Spot Welding System,PSWS 16
+IMV,Deck,Spot Welding System,PSWS 17
+IMV,Deck,Spot Welding System,PSWS 18
+IMV,Deck,Spot Welding System,PSWS 19
+IMV,Deck,Spot Welding System,PSWS 20
+IMV,Deck,Spot Welding System,PSWS 21
+IMV,Deck,Spot Welding System,PSWS 22
+IMV,Deck,Spot Welding System,PSWS 23
+IMV,Deck,Spot Welding System,PSWS 24
+IMV,Deck,Spot Welding System,PSWS 25
+IMV,Deck,Spot Welding System,PSWS 26
+IMV,Deck,Sealer Pump,Sealer Pump # 1
+IMV,Deck,Spoter,Spoter 1
+IMV,Deck,Spoter,Spoter 2
+IMV,Deck,Spoter,Spoter 3
+IMV,Deck,Scissor Lifter,Scissor Lifter 3
+IMV,Deck,Other,Other
+IMV,Engine and Main Body,Hoist,H 13
+IMV,Engine and Main Body,Hoist,H 14
+IMV,Engine and Main Body,Hoist,H 15
+IMV,Engine and Main Body,Hoist,H 16
+IMV,Engine and Main Body,Manual Jig,UDA
+IMV,Engine and Main Body,Manual Jig,UAD RH
+IMV,Engine and Main Body,Manual Jig,UAD LH
+IMV,Engine and Main Body,Manual Jig,MRA
+IMV,Engine and Main Body,Manual Jig,MRC
+IMV,Engine and Main Body,Manual Jig,MRD
+IMV,Engine and Main Body,Manual Jig,MCA
+IMV,Engine and Main Body,Pneumatic Jig,UAE RH
+IMV,Engine and Main Body,Pneumatic Jig,UAE LH
+IMV,Engine and Main Body,Pneumatic Jig,UAB RH
+IMV,Engine and Main Body,Pneumatic Jig,UAB LH
+IMV,Engine and Main Body,Stud Welder,NSWS 1
+IMV,Engine and Main Body,Spot Welding System,PSWS 61
+IMV,Engine and Main Body,Spot Welding System,PSWS 62
+IMV,Engine and Main Body,Spot Welding System,PSWS 63
+IMV,Engine and Main Body,Spot Welding System,PSWS 64
+IMV,Engine and Main Body,Spot Welding System,PSWS 65
+IMV,Engine and Main Body,Spot Welding System,PSWS 66
+IMV,Engine and Main Body,Spot Welding System,PSWS 67
+IMV,Engine and Main Body,Spot Welding System,PSWS 68
+IMV,Engine and Main Body,Spot Welding System,PSWS 69
+IMV,Engine and Main Body,Spot Welding System,PSWS 70
+IMV,Engine and Main Body,Spot Welding System,PSWS 71
+IMV,Engine and Main Body,Spot Welding System,PSWS 72
+IMV,Engine and Main Body,Spot Welding System,PSWS 73
+IMV,Engine and Main Body,Spot Welding System,PSWS 74
+IMV,Engine and Main Body,Spot Welding System,PSWS 75
+IMV,Engine and Main Body,Spot Welding System,PSWS 76
+IMV,Engine and Main Body,Spot Welding System,PSWS 77
+IMV,Engine and Main Body,Spot Welding System,PSWS 78
+IMV,Engine and Main Body,Spot Welding System,PSWS 79
+IMV,Engine and Main Body,Spot Welding System,PSWS 80
+IMV,Engine and Main Body,Spot Welding System,PSWS 81
+IMV,Engine and Main Body,Spot Welding System,PSWS 82
+IMV,Engine and Main Body,Spot Welding System,PSWS 83
+IMV,Engine and Main Body,Spot Welding System,PSWS 84
+IMV,Engine and Main Body,Spot Welding System,PSWS 85
+IMV,Engine and Main Body,Spot Welding System,PSWS 86
+IMV,Engine and Main Body,Spot Welding System,PSWS 87
+IMV,Engine and Main Body,Spot Welding System,PSWS 88
+IMV,Engine and Main Body,Spot Welding System,PSWS 89
+IMV,Engine and Main Body,Spot Welding System,PSWS 90
+IMV,Engine and Main Body,Spot Welding System,PSWS 91
+IMV,Engine and Main Body,Spot Welding System,PSWS 92
+IMV,Engine and Main Body,Spot Welding System,PSWS 93
+IMV,Engine and Main Body,Spot Welding System,PSWS 94
+IMV,Engine and Main Body,Spot Welding System,PSWS 95
+IMV,Engine and Main Body,Spot Welding System,PSWS 96
+IMV,Engine and Main Body,Spot Welding System,PSWS 97
+IMV,Engine and Main Body,Spot Welding System,PSWS 98
+IMV,Engine and Main Body,Spot Welding System,PSWS 99
+IMV,Engine and Main Body,Spot Welding System,PSWS 100
+IMV,Engine and Main Body,Spot Welding System,PSWS 101
+IMV,Engine and Main Body,M Tack,M Tack
+IMV,Engine and Main Body,Scissor Lifter,Scissor Lifter 1
+IMV,Engine and Main Body,Scissor Lifter,Scissor Lifter 2
+IMV,Engine and Main Body,Scissor Lifter,Scissor Lifter 3
+IMV,Engine and Main Body,SSW,SSW 1
+IMV,Engine and Main Body,SSW,SSW 2
+IMV,Engine and Main Body,SSW,SSW 3
+IMV,Engine and Main Body,Vacuum Cleaner,Vacuum Cleaner 1
+IMV,Engine and Main Body,Vacuum Cleaner,Vacuum Cleaner 2
+IMV,Engine and Main Body,Other,Other
+IMV,Floor,CO2,CO2 # 1
+IMV,Floor,CO2,CO2 # 2
+IMV,Floor,Hoist,H 1
+IMV,Floor,Hoist,H 2
+IMV,Floor,Hoist,H 3
+IMV,Floor,Hoist,H 4
+IMV,Floor,Hoist,H 5
+IMV,Floor,Manual Jig,UAA RH
+IMV,Floor,Manual Jig,UAA LH
+IMV,Floor,Manual Jig,MBA
+IMV,Floor,Manual Jig,MBC
+IMV,Floor,Manual Jig,MBCD
+IMV,Floor,Manual Jig,UFJ R/L
+IMV,Floor,Manual Jig,UFA-1
+IMV,Floor,Manual Jig,UFG
+IMV,Floor,Manual Jig,UFE R/L
+IMV,Floor,Manual Jig,UFH R/L
+IMV,Floor,Manual Jig,UUA
+IMV,Floor,Manual Jig,UUG
+IMV,Floor,Manual Jig,UUA-B
+IMV,Floor,Piercing Machine,UFC
+IMV,Floor,Pneumatic Jig,URA
+IMV,Floor,Pneumatic Jig,UEA
+IMV,Floor,Pneumatic Jig,UBA
+IMV,Floor,Pneumatic Jig,UFB
+IMV,Floor,Pneumatic Jig,UFA
+IMV,Floor,Pneumatic Jig,UUB
+IMV,Floor,Pneumatic Jig,UUM-SUV
+IMV,Floor,Pneumatic Jig,UUL-SUV
+IMV,Floor,Pneumatic Jig,UUE
+IMV,Floor,Pneumatic Jig,UUB-SUV
+IMV,Floor,Pneumatic Jig,UUD-SUV
+IMV,Floor,Pneumatic Jig,UUE-SUV
+IMV,Floor,Pneumatic Jig,UUA-SUV
+IMV,Floor,Pneumatic Jig,UUA-1 SUV
+IMV,Floor,Spot Welding System,PSWS 101
+IMV,Floor,Spot Welding System,PSWS 102
+IMV,Floor,Spot Welding System,PSWS 103
+IMV,Floor,Spot Welding System,PSWS 104
+IMV,Floor,Spot Welding System,PSWS 105
+IMV,Floor,Spot Welding System,PSWS 106
+IMV,Floor,Spot Welding System,PSWS 107
+IMV,Floor,Spot Welding System,PSWS 108
+IMV,Floor,Spot Welding System,PSWS 109
+IMV,Floor,Spot Welding System,PSWS 110
+IMV,Floor,Spot Welding System,PSWS 111
+IMV,Floor,Spot Welding System,PSWS 112
+IMV,Floor,Spot Welding System,PSWS 113
+IMV,Floor,Spot Welding System,PSWS 114
+IMV,Floor,Spot Welding System,PSWS 115
+IMV,Floor,Spot Welding System,PSWS 116
+IMV,Floor,Spot Welding System,PSWS 117
+IMV,Floor,Spot Welding System,PSWS 118
+IMV,Floor,Spot Welding System,PSWS 119
+IMV,Floor,Spot Welding System,PSWS 120
+IMV,Floor,Spot Welding System,PSWS 121
+IMV,Floor,Spot Welding System,PSWS 122
+IMV,Floor,Spot Welding System,PSWS 123
+IMV,Floor,Spot Welding System,PSWS 124
+IMV,Floor,Spot Welding System,PSWS 125
+IMV,Floor,Spot Welding System,PSWS 126
+IMV,Floor,Spot Welding System,PSWS 127
+IMV,Floor,Spot Welding System,PSWS 128
+IMV,Floor,Spot Welding System,PSWS 129
+IMV,Floor,Spot Welding System,PSWS 130
+IMV,Floor,Spot Welding System,PSWS 131
+IMV,Floor,Spot Welding System,PSWS 132
+IMV,Floor,Spot Welding System,PSWS 133
+IMV,Floor,Stud Welder,UFC
+IMV,Floor,Other,Other
+IMV,Side Member,Hoist,H 9
+IMV,Side Member,Hoist,H 10
+IMV,Side Member,Hoist,H 11
+IMV,Side Member,Hoist,H 12
+IMV,Side Member,Manual Jig,SCA/ SFA
+IMV,Side Member,Manual Jig,SCA LH
+IMV,Side Member,PLC Jig,SOA RH
+IMV,Side Member,PLC Jig,SMA RH
+IMV,Side Member,PLC Jig,SOA LH
+IMV,Side Member,PLC Jig,SMA LH
+IMV,Side Member,Pneumatic Jig,SOB
+IMV,Side Member,Pneumatic Jig,SOC RH
+IMV,Side Member,Pneumatic Jig,SOB LH
+IMV,Side Member,Pneumatic Jig,SOC LH
+IMV,Side Member,Spot Welding System,PSWS 27
+IMV,Side Member,Spot Welding System,PSWS 28
+IMV,Side Member,Spot Welding System,PSWS 29
+IMV,Side Member,Spot Welding System,PSWS 30
+IMV,Side Member,Spot Welding System,PSWS 31
+IMV,Side Member,Spot Welding System,PSWS 32
+IMV,Side Member,Spot Welding System,PSWS 33
+IMV,Side Member,Spot Welding System,PSWS 34
+IMV,Side Member,Spot Welding System,PSWS 35
+IMV,Side Member,Spot Welding System,PSWS 36
+IMV,Side Member,Spot Welding System,PSWS 37
+IMV,Side Member,Spot Welding System,PSWS 38
+IMV,Side Member,Spot Welding System,PSWS 39
+IMV,Side Member,Spot Welding System,PSWS 40
+IMV,Side Member,Spot Welding System,PSWS 41
+IMV,Side Member,Spot Welding System,PSWS 42
+IMV,Side Member,Spot Welding System,PSWS 43
+IMV,Side Member,Spot Welding System,PSWS 44
+IMV,Side Member,Spot Welding System,PSWS 45
+IMV,Side Member,Spot Welding System,PSWS 46
+IMV,Side Member,Spot Welding System,PSWS 47
+IMV,Side Member,Spot Welding System,PSWS 48
+IMV,Side Member,Spot Welding System,PSWS 49
+IMV,Side Member,Spot Welding System,PSWS 50
+IMV,Side Member,Spot Welding System,PSWS 51
+IMV,Side Member,Spot Welding System,PSWS 52
+IMV,Side Member,Spot Welding System,PSWS 53
+IMV,Side Member,Spot Welding System,PSWS 54
+IMV,Side Member,Spot Welding System,PSWS 55
+IMV,Side Member,Spot Welding System,PSWS 56
+IMV,Side Member,Spot Welding System,PSWS 57
+IMV,Side Member,Spot Welding System,PSWS 58
+IMV,Side Member,Spot Welding System,PSWS 59
+IMV,Side Member,Spot Welding System,PSWS 60
+IMV,Side Member,Spot Welding System,PSWS 60A
+IMV,Side Member,Spot Welding System,PSWS 60B
+IMV,Side Member,Sealer Pump,Sealer Pump 1
+IMV,Side Member,Punching Machine,UUC
+IMV,Side Member,Other,Other
+IMV,Wheel House,Manual Jig,SWE R/L
+IMV,Wheel House,Manual Jig,SWC LH
+IMV,Wheel House,Manual Jig,SWA
+IMV,Wheel House,Manual Jig,SWB LH
+IMV,Wheel House,Manual Jig,SWB RH
+IMV,Wheel House,Manual Jig,SWA RH
+IMV,Wheel House,Manual Jig,SWA -SUV
+IMV,Wheel House,Manual Jig,STA LH
+IMV,Wheel House,Manual Jig,STA RH
+IMV,Wheel House,Pneumatic Jig,SRD R/L
+IMV,Wheel House,Pneumatic Jig,SRA RH
+IMV,Wheel House,Pneumatic Jig,SRA LH
+IMV,Wheel House,Pneumatic Jig,SRC R/L
+IMV,Wheel House,Spot Welding System,PSWS 134
+IMV,Wheel House,Spot Welding System,PSWS 135
+IMV,Wheel House,Spot Welding System,PSWS 136
+IMV,Wheel House,Spot Welding System,PSWS 137
+IMV,Wheel House,Spot Welding System,PSWS 138
+IMV,Wheel House,Spot Welding System,PSWS 139
+IMV,Wheel House,Spot Welding System,PSWS 140
+IMV,Wheel House,Spot Welding System,PSWS 141
+IMV,Wheel House,Spot Welding System,PSWS 142
+IMV,Wheel House,Spot Welding System,PSWS 143
+IMV,Wheel House,Spot Welding System,PSWS 144
+IMV,Wheel House,Spot Welding System,PSWS 145
+IMV,Wheel House,Spot Welding System,PSWS 146
+IMV,Wheel House,Spot Welding System,PSWS 147
+IMV,Wheel House,Spot Welding System,PSWS 148
+IMV,Wheel House,Spot Welding System,PSWS 149
+IMV,Wheel House,Other,Other
+Yaris,Main Body,M Tack,M Tack
+Yaris,Main Body,Other,Other
+Yaris,Door,CO2,CO2 10
+Yaris,Door,PLC Jig,WRE LH
+Yaris,Door,PLC Jig,WRD LH
+Yaris,Door,PLC Jig,WLG LH
+Yaris,Door,PLC Jig,WFE LH
+Yaris,Door,PLC Jig,WFE RH
+Yaris,Door,PLC Jig,WRE RH
+Yaris,Door,PLC Jig,WRD RH
+Yaris,Door,PLC Jig,WLH
+Yaris,Door,Pneumatic Jig,WFD LH
+Yaris,Door,Pneumatic Jig,WRG LH
+Yaris,Door,Pneumatic Jig,WHF
+Yaris,Door,Pneumatic Jig,WEA RH
+Yaris,Door,Pneumatic Jig,WEA LH
+Yaris,Door,Pneumatic Jig,WLG
+Yaris,Door,Pneumatic Jig,WLF
+Yaris,Door,Pneumatic Jig,WLE
+Yaris,Door,Pneumatic Jig,WLI
+Yaris,Door,Roller Hemming Robot,DR (2-1)
+Yaris,Door,Roller Hemming Robot,DR (3-1)
+Yaris,Door,Roller Hemming Robot,DR (3-2)
+Yaris,Door,Roller Hemming Robot,DR (3-2)
+Yaris,Door,Roller Hemming Robot,DR (3-3)
+Yaris,Door,Roller Hemming Robot,DR (4-1)
+Yaris,Door,Roller Hemming Robot,HD (2-1)
+Yaris,Door,Roller Hemming Robot,HD (3-1)
+Yaris,Door,Roller Hemming Robot,HD (3-2)
+Yaris,Door,Roller Hemming Robot,HD (3-2)
+Yaris,Door,Roller Hemming Robot,HD (3-3)
+Yaris,Door,Roller Hemming Robot,HD (4-1)
+Yaris,Door,Roller Hemming Robot,LG (2-1)
+Yaris,Door,Roller Hemming Robot,LG (3-1)
+Yaris,Door,Roller Hemming Robot,LG (3-2)
+Yaris,Door,Roller Hemming Robot,LG (3-2)
+Yaris,Door,Roller Hemming Robot,LG (3-3)
+Yaris,Door,Roller Hemming Robot,LG (4-1)
+Yaris,Door,Sealer Pump,Sealer Pump # 8
+Yaris,Door,Spot Welding System,PSWS V01
+Yaris,Door,Spot Welding System,PSWS V02
+Yaris,Door,Spot Welding System,PSWS V03
+Yaris,Door,Spot Welding System,PSWS V04
+Yaris,Door,Spot Welding System,PSWS V05
+Yaris,Door,Spot Welding System,PSWS V06
+Yaris,Door,Spot Welding System,PSWS V07
+Yaris,Door,Spot Welding System,PSWS V08
+Yaris,Door,Spot Welding System,PSWS V9
+Yaris,Door,Spot Welding System,PSWS V10
+Yaris,Door,Spot Welding System,PSWS V11
+Yaris,Door,Spot Welding System,PSWS V12
+Yaris,Door,Spot Welding System,PSWS V13
+Yaris,Door,Spot Welding System,PSWS V14
+Yaris,Door,Spot Welding System,PSWS V15
+Yaris,Door,Spot Welding System,PSWS V16
+Yaris,Door,Spot Welding System,PSWS V17
+Yaris,Door,Spot Welding System,PSWS V18
+Yaris,Door,Spot Welding System,PSWS V19
+Yaris,Door,Spot Welding System,PSWS V20
+Yaris,Door,Spot Welding System,PSWS V21
+Yaris,Door,Spot Welding System,PSWS V22
+Yaris,Door,Spot Welding System,PSWS V82
+Yaris,Door,Spot Welding System,PSWS V83
+Yaris,Door,Spot Welding System,PSWS V84
+Yaris,Door,Spot Welding System,PSWS V85
+Yaris,Door,Spot Welding System,PSWS V86
+Yaris,Door,Spot Welding System,PSWS V87
+Yaris,Door,Spot Welding System,PSWS V88
+Yaris,Door,Spot Welding System,PSWS V89
+Yaris,Door,Spot Welding System,PSWS V90
+Yaris,Door,SSW,SSW 1
+Yaris,Door,Other,Other
+Yaris,Side Member RH,Spot Welding System,PSWS V65  
+Yaris,Side Member RH,Spot Welding System,PSWS V66  
+Yaris,Side Member RH,Spot Welding System,PSWS V67  
+Yaris,Side Member RH,Spot Welding System,PSWS V68  
+Yaris,Side Member RH,Spot Welding System,PSWS V69  
+Yaris,Side Member RH,Spot Welding System,PSWS V70  
+Yaris,Side Member RH,Spot Welding System,PSWS V71  
+Yaris,Side Member LH,Sealer Pump,PSWS V72  
+Yaris,Side Member LH,Spot Welding System,PSWS V53  
+Yaris,Side Member RH,Spot Welding System,PSWS V54  
+Yaris,Side Member RH,Spot Welding System,PSWS V55  
+Yaris,Side Member RH,Spot Welding System,PSWS V56  
+Yaris,Side Member RH,Spot Welding System,PSWS V57  
+Yaris,Side Member RH,Spot Welding System,PSWS V58  
+Yaris,Side Member RH,Spot Welding System,PSWS V59  
+Yaris,Side Member RH,Spot Welding System,PSWS V60  
+Yaris,Side Member LH,CO2,PSWS V61  
+Yaris,Side Member RH,CO2,PSWS V62  
+Yaris,Side Member RH,Hoist,PSWS V63
+Yaris,Side Member LH,Pneumatic Jig,SWC LH
+Yaris,Side Member RH,Pneumatic Jig,STA
+Yaris,Side Member RH,Pneumatic Jig,SCA
+Yaris,Side Member RH,Pneumatic Jig,SWB
+Yaris,Side Member RH,Pneumatic Jig,SWA
+Yaris,Side Member RH,Pneumatic Jig,SRB
+Yaris,Side Member RH,Pneumatic Jig,SRA
+Yaris,Side Member RH,Pneumatic Jig,SOA
+Yaris,Side Member RH,PLC Jig,SMB
+Yaris,Side Member RH,PLC Jig,SMA
+Yaris,Side Member RH,Sealer Pump,Sealer Pump # 6
+Yaris,Side Member LH,Spot Welding System,PSWS V54  
+Yaris,Side Member LH,Spot Welding System,PSWS V55  
+Yaris,Side Member LH,Spot Welding System,PSWS V56  
+Yaris,Side Member LH,Spot Welding System,PSWS V57  
+Yaris,Side Member LH,Spot Welding System,PSWS V58  
+Yaris,Side Member LH,Spot Welding System,PSWS V59  
+Yaris,Side Member LH,Spot Welding System,PSWS V60  
+Yaris,Side Member LH,Spot Welding System,PSWS V61
+Yaris,Side Member LH,Spot Welding System,PSWS V62  
+Yaris,Side Member LH,Spot Welding System,PSWS V63
+Yaris,Side Member RH,Other,Other
+Yaris,Side Member LH,Other,Other
+Yaris,Under body,Auto Stud,UDB-1
+Yaris,Under body,Hoist,V 1
+Yaris,Under body,Hoist,V 2
+Yaris,Under body,Hoist,V 3
+Yaris,Under body,Hoist,V 4
+Yaris,Under body,Hoist,V 5
+Yaris,Under body,Hoist,V 6
+Yaris,Under body,Hoist,V 7
+Yaris,Under body,Hoist,V 8
+Yaris,Under body,Manual Jig,UFC-1
+Yaris,Under body,Manual Jig,UFH R/L
+Yaris,Under body,Manual Jig,UFA-1
+Yaris,Under body,Manual Jig,UUA-1
+Yaris,Under body,Manual Jig,UEA-1
+Yaris,Under body,Manual Jig,URE
+Yaris,Under body,Number Punching Machine,UFD
+Yaris,Under body,PLC Jig,UEA
+Yaris,Under body,Pneumatic Jig,UDB
+Yaris,Under body,Pneumatic Jig,UAD LH
+Yaris,Under body,Pneumatic Jig,UAB LH
+Yaris,Under body,Pneumatic Jig,UMD LH
+Yaris,Under body,Pneumatic Jig,UMA LH
+Yaris,Under body,Pneumatic Jig,UMA -1 LH
+Yaris,Under body,Pneumatic Jig,UMA-1 RH
+Yaris,Under body,Pneumatic Jig,UMA RH
+Yaris,Under body,Pneumatic Jig,UMD 
+Yaris,Under body,Pneumatic Jig,UAB RH
+Yaris,Under body,Pneumatic Jig,UAD RH
+Yaris,Under body,Pneumatic Jig,SRA LH
+Yaris,Under body,Pneumatic Jig,SRA RH
+Yaris,Under body,Pneumatic Jig,SRB LH
+Yaris,Under body,Pneumatic Jig,SRB RH
+Yaris,Under body,Pneumatic Jig,SWC LH
+Yaris,Under body,Pneumatic Jig,UFB RH
+Yaris,Under body,Pneumatic Jig,UFB LH
+Yaris,Under body,Pneumatic Jig,UFA
+Yaris,Under body,Pneumatic Jig,UFJ R/L
+Yaris,Under body,Pneumatic Jig,UUB
+Yaris,Under body,Pneumatic Jig,UUA
+Yaris,Under body,Pneumatic Jig,UUF LH
+Yaris,Under body,Pneumatic Jig,UUG LH
+Yaris,Under body,Pneumatic Jig,UUF RH
+Yaris,Under body,Pneumatic Jig,UUG RH
+Yaris,Under body,Pneumatic Jig,UUC
+Yaris,Under body,Manual Jig,MRA
+Yaris,Under body,Spot Welding System,PSWS 01
+Yaris,Under body,Spot Welding System,PSWS 02
+Yaris,Under body,Spot Welding System,PSWS 03
+Yaris,Under body,Spot Welding System,PSWS 04
+Yaris,Under body,Spot Welding System,PSWS 05
+Yaris,Under body,Spot Welding System,PSWS 06
+Yaris,Under body,Spot Welding System,PSWS 07
+Yaris,Under body,Spot Welding System,PSWS 08
+Yaris,Under body,Spot Welding System,PSWS 09
+Yaris,Under body,Spot Welding System,PSWS 10
+Yaris,Under body,Spot Welding System,PSWS 11
+Yaris,Under body,Spot Welding System,PSWS 12
+Yaris,Under body,Spot Welding System,PSWS 13
+Yaris,Under body,Spot Welding System,PSWS 14
+Yaris,Under body,Spot Welding System,PSWS 15
+Yaris,Under body,Spot Welding System,PSWS 16
+Yaris,Under body,Spot Welding System,PSWS 17
+Yaris,Under body,Spot Welding System,PSWS 18
+Yaris,Under body,Spot Welding System,PSWS 19
+Yaris,Under body,Spot Welding System,PSWS 20
+Yaris,Under body,Spot Welding System,PSWS 21
+Yaris,Under body,Spot Welding System,PSWS 22
+Yaris,Under body,Spot Welding System,PSWS 23
+Yaris,Under body,Spot Welding System,PSWS 24
+Yaris,Under body,Spot Welding System,PSWS 25
+Yaris,Under body,Spot Welding System,PSWS 26
+Yaris,Under body,Spot Welding System,PSWS 27
+Yaris,Under body,Spot Welding System,PSWS 28
+Yaris,Under body,Spot Welding System,PSWS 29
+Yaris,Under body,Spot Welding System,PSWS 30
+Yaris,Under body,Spot Welding System,PSWS 31
+Yaris,Under body,Spot Welding System,PSWS 32
+Yaris,Under body,Spot Welding System,PSWS 33
+Yaris,Under body,Spot Welding System,PSWS 34
+Yaris,Under body,Spot Welding System,PSWS 35
+Yaris,Under body,Spot Welding System,PSWS 36
+Yaris,Under body,Spot Welding System,PSWS 37
+Yaris,Under body,Spot Welding System,PSWS 38
+Yaris,Under body,Spot Welding System,PSWS 39
+Yaris,Under body,Spot Welding System,PSWS 40
+Yaris,Under body,Spot Welding System,PSWS 41
+Yaris,Under body,Spot Welding System,PSWS 42
+Yaris,Under body,Spot Welding System,PSWS 43
+Yaris,Under body,Spot Welding System,PSWS 44
+Yaris,Under body,Spot Welding System,PSWS 45
+Yaris,Under body,Spot Welding System,PSWS 46
+Yaris,Under body,Spot Welding System,PSWS 47
+Yaris,Under body,SSW,UDD
+Yaris,Under body,SSW,UME LH
+Yaris,Under body,SSW,UFG
+Yaris,Under body,Stud Welder,UFA-1
+Yaris,Under body,Stud Welder,UUA-1
+Yaris,Under body,Other,Other

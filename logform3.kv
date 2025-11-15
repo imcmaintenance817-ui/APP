@@ -1,0 +1,234 @@
+#:kivy 2.1.0
+#:import md_icons kivymd.icon_definitions.md_icons
+#:import dp kivy.metrics.dp
+
+<LogForm>:
+    orientation: "vertical"
+    padding: dp(12)
+    spacing: dp(10)
+
+    MDTopAppBar:
+        id: topbar
+        title: "Daily Log Form"
+        elevation: 10
+        md_bg_color: app.theme_cls.primary_color
+        specific_text_color: 1,1,1,1
+        left_action_items: [["menu", lambda x: None]]
+        right_action_items: [["theme-light-dark", lambda x: root.toggle_theme()]]
+
+    ScrollView:
+        MDBoxLayout:
+            orientation: "vertical"
+            adaptive_height: True
+            padding: dp(12)
+            spacing: dp(12)
+
+            MDCard:
+                size_hint_y: None
+                height: self.minimum_height
+                padding: dp(12)
+                MDBoxLayout:
+                    orientation: "horizontal"
+                    size_hint_y: None
+                    height: dp(56)
+                    spacing: dp(12)
+
+                    MDTextField:
+                        id: date_input
+                        hint_text: "Date"
+                        readonly: True
+                        on_focus: if self.focus: root.open_date_picker()
+                        size_hint_x: .5
+
+                    MDTextField:
+                        id: time_input
+                        hint_text: "Time"
+                        readonly: True
+                        size_hint_x: .5
+
+            MDCard:
+                padding: dp(12)
+                size_hint_y: None
+                height: self.minimum_height
+                MDGridLayout:
+                    cols: 2
+                    adaptive_height: True
+                    row_default_height: "48dp"
+                    row_force_default: False
+                    spacing: dp(10)
+
+                    # Left Column (col 1)
+                    MDBoxLayout:
+                        orientation: "vertical"
+                        adaptive_height: True
+                        spacing: dp(8)
+
+                        MDLabel:
+                            text: "Line"
+                            halign: "left"
+                            size_hint_y: None
+                            height: dp(20)
+
+                        MDTextField:
+                            id: line_field
+                            hint_text: "Select Line"
+                            # searchable: user can type to filter
+                            readonly: False
+                            on_focus: if self.focus and root._menus.get("line_field"): root._menus["line_field"].open()
+
+                        MDLabel:
+                            text: "Equipment Type"
+                            halign: "left"
+                            size_hint_y: None
+                            height: dp(20)
+
+                        MDTextField:
+                            id: type_field
+                            hint_text: "Select Type"
+                            readonly: False
+                            on_focus: if self.focus and root._menus.get("type_field"): root._menus["type_field"].open()
+
+                        MDLabel:
+                            text: "Fault (free text)"
+                            halign: "left"
+                            size_hint_y: None
+                            height: dp(20)
+
+                        MDTextField:
+                            id: fault_input
+                            hint_text: "Fault description"
+                            multiline: False
+
+                        MDLabel:
+                            text: "Action"
+                            halign: "left"
+                            size_hint_y: None
+                            height: dp(20)
+
+                        MDTextField:
+                            id: action_input
+                            hint_text: "Action taken"
+                            multiline: False
+
+                        MDLabel:
+                            text: "EST (mins)"
+                            halign: "left"
+                            size_hint_y: None
+                            height: dp(20)
+
+                        MDTextField:
+                            id: est_input
+                            hint_text: "Estimated minutes"
+                            multiline: False
+                            input_filter: "int"
+
+                        MDLabel:
+                            text: "Job Type"
+                            halign: "left"
+                            size_hint_y: None
+                            height: dp(20)
+
+                        MDTextField:
+                            id: job_type_field
+                            hint_text: "Select Job Type"
+                            readonly: False
+                            on_focus: if self.focus and root._menus.get("job_type_field"): root._menus["job_type_field"].open()
+
+                    # Right Column (col 2)
+                    MDBoxLayout:
+                        orientation: "vertical"
+                        adaptive_height: True
+                        spacing: dp(8)
+
+                        MDLabel:
+                            text: "Area"
+                            halign: "left"
+                            size_hint_y: None
+                            height: dp(20)
+
+                        MDTextField:
+                            id: area_field
+                            hint_text: "Select Area"
+                            readonly: False
+                            on_focus: if self.focus and root._menus.get("area_field"): root._menus["area_field"].open()
+
+                        MDLabel:
+                            text: "Equipment"
+                            halign: "left"
+                            size_hint_y: None
+                            height: dp(20)
+
+                        MDTextField:
+                            id: equip_field
+                            hint_text: "Search / Select Equipment"
+                            readonly: False
+                            on_focus: if self.focus and root._menus.get("equip_field"): root._menus["equip_field"].open()
+
+                        MDLabel:
+                            text: "Type of Fault"
+                            halign: "left"
+                            size_hint_y: None
+                            height: dp(20)
+
+                        MDTextField:
+                            id: fault_type_field
+                            hint_text: "Select Fault Type"
+                            readonly: False
+                            on_focus: if self.focus and root._menus.get("fault_type_field"): root._menus["fault_type_field"].open()
+
+                        MDLabel:
+                            text: "Action Type"
+                            halign: "left"
+                            size_hint_y: None
+                            height: dp(20)
+
+                        MDTextField:
+                            id: action_type_field
+                            hint_text: "Select Action Type"
+                            readonly: False
+                            on_focus: if self.focus and root._menus.get("action_type_field"): root._menus["action_type_field"].open()
+
+                        MDLabel:
+                            text: "LOTO Applied?"
+                            halign: "left"
+                            size_hint_y: None
+                            height: dp(20)
+
+                        MDTextField:
+                            id: loto_field
+                            hint_text: "Select LOTO"
+                            text: "No" 
+                            readonly: False
+                            on_focus: if self.focus and root._menus.get("loto_field"): root._menus["loto_field"].open()
+
+            MDBoxLayout:
+                padding: dp(6)
+                adaptive_height: True
+                spacing: dp(10)
+                MDRaisedButton:
+                    text: "Save Entry"
+                    on_release: root.save_entry()
+                    md_bg_color: app.theme_cls.primary_color
+                    text_color: 1,1,1,1
+                MDRaisedButton:
+                    text: "Preview"
+                    on_release: root.preview()
+                    md_bg_color: app.theme_cls.accent_color
+                    text_color: 1,1,1,1
+                MDRaisedButton:
+                    text: "Export to XLSX"
+                    on_release: root.export_xlsx()
+                    md_bg_color: app.theme_cls.primary_color
+                    text_color: 1,1,1,1
+                MDFlatButton:
+                    text: "Clear Entries"
+                    on_release: root.clear_saved()
+                    text_color: 1,0.6,0.6,1
+
+            MDLabel:
+                id: status_label
+                text: root.status
+                halign: "center"
+                theme_text_color: "Secondary"
+                size_hint_y: None
+                height: dp(24)

@@ -1,0 +1,82 @@
+Type of Fault
+PSWS - Hand Switch
+PSWS - Shank
+PSWS - Adapter
+PSWS - Arm Holder
+PSWS - Kickless Cable
+PSWS - Additional Cable
+PSWS - Shunt
+PSWS - Bolt Assembly
+PSWS - Shunt Terminal
+PSWS - TC Card
+PSWS - Timer Contactor
+PSWS - Water Pipe
+PSWS - Alignment Tool
+PSWS - H Terminal
+PSWS - Power Cable
+PSWS - Control Cable
+PSWS - Solenoid
+PSWS - Transformer
+PSWS - Others
+PLC Jig - Reed Switch
+PLC Jig - Proximity Switch
+PLC Jig - Solenoid
+PLC Jig - Push Button
+PLC Jig - Elbow
+PLC Jig - Socket
+PLC Jig - CPU
+PLC Jig - I/O Module
+PLC Jig - Cable
+PLC Jig - Others
+Stud Welder - Stud Gun
+Stud Welder - Collet
+Stud Welder - Stop Pin
+Stud Welder - PC Card
+Stud Welder - Earth Cable
+Stud Welder - Others
+CO2 - Torch
+CO2 - Torch Assembly
+CO2 - Remote Control
+CO2 - Welding Machine
+Hoist - Pendant
+Hoist - Power Cable
+Hoist - Busbar
+Hoist - Hoist Unit
+Hoist - Others
+Sealer Pump - Gun
+Sealer Pump - Nozzle
+Sealer Pump - Pipe
+Sealer Pump - Sealer Pump Unit
+Sealer Pump - Others
+Hemming Machine - Belt
+Hemming Machine - Reed Switch
+Hemming Machine - Proximity Switch
+Hemming Machine - Solenoid
+Hemming Machine - Push Button
+Hemming Machine - CPU
+Hemming Machine - I/O Module
+Hemming Machine - Cable
+Hemming Machine - Pulley
+Hemming Machine - Feeding Mechanism
+Hemming Machine - Light Curtain
+Hemming Machine - Others
+M Tack - Reed Switch
+M Tack - Proximity Switch
+M Tack - Solenoid
+M Tack - Push Button
+M Tack - Elbow
+M Tack - Light Curtain
+M Tack - CPU
+M Tack - I/O Module
+M Tack - Cable
+M Tack - GR Problem
+M Tack - Skidder
+M Tack - Safety PLC
+M Tack - Communication Module
+M Tack - Others
+Others - PLC
+Others - Machine
+Others - Electrical
+Others - Pneumatic
+Others - Hydraulic
+Others - Others
