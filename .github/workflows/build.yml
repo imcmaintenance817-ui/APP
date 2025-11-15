@@ -13,17 +13,35 @@ jobs:
       # 1️⃣ Checkout code
       - uses: actions/checkout@v4
 
-      # 2️⃣ Build APK using the Buildozer Action
-      - name: Build APK
-        uses: digreatbrian/buildozer-action@v2
-        with:
-          python-version: 3.11
-          buildozer-cmd: buildozer -v android debug
+      # 2️⃣ Install system dependencies
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3 python3-pip build-essential \
+            git zip unzip openjdk-17-jdk autoconf automake libtool \
+            pkg-config zlib1g zlib1g-dev libffi-dev libssl-dev \
+            python3-dev
 
-      # 3️⃣ Upload APK artifact
+      # 3️⃣ Install Buildozer
+      - name: Install Buildozer
+        run: |
+          pip3 install --upgrade pip wheel setuptools
+          pip3 install --upgrade cython buildozer
+
+      # 4️⃣ Build APK
+      - name: Build APK
+        run: |
+          buildozer --verbose android debug
+
+      # 5️⃣ Copy APK to ./bin (ensures upload)
+      - name: Copy APK to bin
+        run: |
+          mkdir -p ./bin
+          cp ./.buildozer/android/platform/build-*/dists/imclogbook/bin/*.apk ./bin/
+
+      # 6️⃣ Upload APK artifact
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
           name: apk-package
-          # wildcard path to catch APK from internal build folders
-          path: ./.buildozer/android/platform/build-*/dists/imclogbook/bin/*.apk
+          path: ./bin/*.apk
