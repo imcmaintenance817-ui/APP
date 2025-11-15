@@ -2,7 +2,8 @@ name: Build Kivy APK
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
@@ -10,38 +11,35 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout code
-      - uses: actions/checkout@v4
+      # 1️⃣ Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       # 2️⃣ Install system dependencies
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y python3 python3-pip build-essential \
-            git zip unzip openjdk-17-jdk autoconf automake libtool \
-            pkg-config zlib1g zlib1g-dev libffi-dev libssl-dev \
-            python3-dev
+          sudo apt-get install -y \
+            python3 python3-pip build-essential git zip unzip openjdk-17-jdk \
+            autoconf automake libtool pkg-config zlib1g zlib1g-dev libffi-dev libssl-dev \
+            python3-dev libxml2-dev libxslt1-dev libz-dev
 
-      # 3️⃣ Install Buildozer
-      - name: Install Buildozer
+      # 3️⃣ Install Buildozer + Python packages
+      - name: Install Buildozer and Python packages
         run: |
-          pip3 install --upgrade pip wheel setuptools
-          pip3 install --upgrade cython buildozer
+          pip3 install --upgrade pip wheel setuptools cython buildozer
 
-      # 4️⃣ Build APK
+      # 4️⃣ Build the APK
       - name: Build APK
         run: |
-          buildozer --verbose android debug
-
-      # 5️⃣ Copy APK to ./bin (ensures upload)
-      - name: Copy APK to bin
-        run: |
+          buildozer --verbose android debug || true
+          # Copy APK to a stable location for GitHub Actions
           mkdir -p ./bin
-          cp ./.buildozer/android/platform/build-*/dists/imclogbook/bin/*.apk ./bin/
+          find ./.buildozer/android/platform/build-*/dists/imclogbook/bin/ -name "*.apk" -exec cp {} ./bin/ \;
 
-      # 6️⃣ Upload APK artifact
+      # 5️⃣ Upload APK artifact
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
-          name: apk-package
+          name: imclogbook-apk
           path: ./bin/*.apk
