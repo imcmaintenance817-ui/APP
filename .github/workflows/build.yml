@@ -11,31 +11,48 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repo
+      # 1️⃣ Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2️⃣ Install system dependencies
+      # 2️⃣ Setup Python 3.11
+      - name: Setup Python 3.11
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3.11 python3.11-dev python3.11-venv
+          sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.11 1
+          python3 --version
+
+      # 3️⃣ Install system dependencies
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y python3 python3-pip build-essential \
-              git zip unzip openjdk-17-jdk autoconf automake libtool \
-              pkg-config zlib1g zlib1g-dev libffi-dev libssl-dev \
-              python3-dev
+          sudo apt-get install -y build-essential git zip unzip openjdk-17-jdk \
+              autoconf automake libtool pkg-config zlib1g zlib1g-dev libffi-dev \
+              libssl-dev gettext g++ libncurses5-dev libncursesw5-dev \
+              libbz2-dev libsqlite3-dev liblzma-dev libreadline-dev
 
-      # 3️⃣ Install Buildozer and Cython
-      - name: Install Buildozer
+      # 4️⃣ Cache Buildozer and python-for-android
+      - name: Cache Buildozer
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.buildozer
+            ~/.local/share/python-for-android
+          key: ${{ runner.os }}-buildozer-${{ hashFiles('**/*.spec') }}
+
+      # 5️⃣ Install Python dependencies
+      - name: Install Buildozer and Cython
         run: |
-          pip3 install --upgrade pip wheel setuptools
-          pip3 install --upgrade cython buildozer
+          python3 -m pip install --upgrade pip setuptools wheel
+          python3 -m pip install --upgrade cython buildozer
 
-      # 4️⃣ Initialize Buildozer environment
+      # 6️⃣ Build APK
       - name: Build APK
         run: |
           buildozer --verbose android debug
 
-      # 5️⃣ Upload APK artifact
+      # 7️⃣ Upload APK artifact
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
