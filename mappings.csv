@@ -1,5 +1,5 @@
-Line,Area,Equipment Type,Equipment
-164D Line,Door,CO2 ,CO2 3
+Line,Area,Equipment_Type,Equipment
+164D Line,Door,CO2,CO2 3
 164D Line,Door,PLC Jig,WFH
 164D Line,Door,PLC Jig,WFE LH
 164D Line,Door,PLC Jig,WFE RH
@@ -68,24 +68,24 @@ Line,Area,Equipment Type,Equipment
 164D Line,Main Body and UBA,Spot Welding System,PSWS 121
 164D Line,Main Body and UBA,Spot Welding System,PSWS 122
 164D Line,Main Body and UBA,Other,Other
-164D Line,Side Member RH/ LH,Hoist ,H 11
-164D Line,Side Member RH/ LH,Hoist ,H 12
-164D Line,Side Member RH/ LH,Hoist ,H 13
-164D Line,Side Member RH/ LH,Hoist ,H 14
+164D Line,Side Member RH/ LH,Hoist,H 11
+164D Line,Side Member RH/ LH,Hoist,H 12
+164D Line,Side Member RH/ LH,Hoist,H 13
+164D Line,Side Member RH/ LH,Hoist,H 14
 164D Line,Side Member RH/ LH,PLC Jig,SWC LH
 164D Line,Side Member RH/ LH,PLC Jig,SMA RH
 164D Line,Side Member RH/ LH,PLC Jig,SMA LH
 164D Line,Side Member RH/ LH,PLC Jig,SWC RH
-164D Line,Side Member RH/ LH,Pneumatic,SWA LH
-164D Line,Side Member RH/ LH,Pneumatic,SRB LH
-164D Line,Side Member RH/ LH,Pneumatic,SRA LH
-164D Line,Side Member RH/ LH,Pneumatic,SCA LH
-164D Line,Side Member RH/ LH,Pneumatic,STA LH
-164D Line,Side Member RH/ LH,Pneumatic,SOA LH
-164D Line,Side Member RH/ LH,Pneumatic,SOA RH
-164D Line,Side Member RH/ LH,Pneumatic,SCA RH
-164D Line,Side Member RH/ LH,Pneumatic,SWA RH
-164D Line,Side Member RH/ LH,Pneumatic,SRA RH
+164D Line,Side Member RH/ LH,Pneumatic Jig,SWA LH
+164D Line,Side Member RH/ LH,Pneumatic Jig,SRB LH
+164D Line,Side Member RH/ LH,Pneumatic Jig,SRA LH
+164D Line,Side Member RH/ LH,Pneumatic Jig,SCA LH
+164D Line,Side Member RH/ LH,Pneumatic Jig,STA LH
+164D Line,Side Member RH/ LH,Pneumatic Jig,SOA LH
+164D Line,Side Member RH/ LH,Pneumatic Jig,SOA RH
+164D Line,Side Member RH/ LH,Pneumatic Jig,SCA RH
+164D Line,Side Member RH/ LH,Pneumatic Jig,SWA RH
+164D Line,Side Member RH/ LH,Pneumatic Jig,SRA RH
 164D Line,Side Member RH/ LH,Sealer Pump,SP 3
 164D Line,Side Member RH/ LH,Spot Welding System,PSWS 69
 164D Line,Side Member RH/ LH,Spot Welding System,PSWS 70
@@ -251,8 +251,8 @@ Line,Area,Equipment Type,Equipment
 Corolla,Door Hemming Area,Brazing Station,Brazing Station # 1
 Corolla,Door Hemming Area,Brazing Station,Brazing Station # 2
 Corolla,Door Hemming Area,CO2,Co2 # 9
-Corolla,Door Hemming Area,ENERPAC ,WEA RH
-Corolla,Door Hemming Area,ENERPAC ,WEA LH
+Corolla,Door Hemming Area,Enerpac,WEA RH
+Corolla,Door Hemming Area,Enerpac,WEA LH
 Corolla,Door Hemming Area,Hemming Machine,Door Hemming LH
 Corolla,Door Hemming Area,Hemming Machine,Door Hemming RH
 Corolla,Door Hemming Area,Hemming Machine,Hood and Luggage
@@ -311,7 +311,7 @@ Corolla,Main Body,Hoist,C 18
 Corolla,Main Body,Hoist,C 19
 Corolla,Main Body,Manual Jig,MRA
 Corolla,Main Body,Manual Jig,MRB
-Corolla,Main Body,M Tack,M-TACK
+Corolla,Main Body,M-Tack,M-TACK
 Corolla,Main Body,Sealer Pump,Sealer Pump # 3
 Corolla,Main Body,Spot Welding System,PSWS 107A
 Corolla,Main Body,Spot Welding System,PSWS 107B
@@ -348,10 +348,10 @@ Corolla,Main Body,Scissor Lifter,Scissor Lifter 1
 Corolla,Main Body,Scissor Lifter,Scissor Lifter 2
 Corolla,Main Body,Other,Other
 Corolla,Shell Body,Brazing Station,Brazing Station # 3
-Corolla,Shell Body,Conveyer,Shell body 
+Corolla,Shell Body,Conveyor,Shell body 
 Corolla,Shell Body,Other,Other
-Corolla,Side Member RH,Hydrolic punching machine,Enerpac
-Corolla,Side Member LH,Hydrolic punching machine,Enerpac
+Corolla,Side Member RH,Hydraulic Punching Machine,Enerpac
+Corolla,Side Member LH,Hydraulic Punching Machine,Enerpac
 Corolla,Side Member LH,CO2,CO2 # 4
 Corolla,Side Member LH,Hoist,C 11
 Corolla,Side Member LH,Hoist,C 12
@@ -618,9 +618,9 @@ IMV,Deck,Spot Welding System,PSWS 24
 IMV,Deck,Spot Welding System,PSWS 25
 IMV,Deck,Spot Welding System,PSWS 26
 IMV,Deck,Sealer Pump,Sealer Pump # 1
-IMV,Deck,Spoter,Spoter 1
-IMV,Deck,Spoter,Spoter 2
-IMV,Deck,Spoter,Spoter 3
+IMV,Deck,Spotter,Spoter 1
+IMV,Deck,Spotter,Spoter 2
+IMV,Deck,Spotter,Spoter 3
 IMV,Deck,Scissor Lifter,Scissor Lifter 3
 IMV,Deck,Other,Other
 IMV,Engine and Main Body,Hoist,H 13
@@ -680,7 +680,7 @@ IMV,Engine and Main Body,Spot Welding System,PSWS 98
 IMV,Engine and Main Body,Spot Welding System,PSWS 99
 IMV,Engine and Main Body,Spot Welding System,PSWS 100
 IMV,Engine and Main Body,Spot Welding System,PSWS 101
-IMV,Engine and Main Body,M Tack,M Tack
+IMV,Engine and Main Body,M-Tack,M Tack
 IMV,Engine and Main Body,Scissor Lifter,Scissor Lifter 1
 IMV,Engine and Main Body,Scissor Lifter,Scissor Lifter 2
 IMV,Engine and Main Body,Scissor Lifter,Scissor Lifter 3
@@ -811,7 +811,7 @@ IMV,Side Member,Spot Welding System,PSWS 60
 IMV,Side Member,Spot Welding System,PSWS 60A
 IMV,Side Member,Spot Welding System,PSWS 60B
 IMV,Side Member,Sealer Pump,Sealer Pump 1
-IMV,Side Member,Punching Machine,UUC
+IMV,Side Member,Hydraulic Punching Machine,UUC
 IMV,Side Member,Other,Other
 IMV,Wheel House,Manual Jig,SWE R/L
 IMV,Wheel House,Manual Jig,SWC LH
@@ -843,7 +843,7 @@ IMV,Wheel House,Spot Welding System,PSWS 147
 IMV,Wheel House,Spot Welding System,PSWS 148
 IMV,Wheel House,Spot Welding System,PSWS 149
 IMV,Wheel House,Other,Other
-Yaris,Main Body,M Tack,M Tack
+Yaris,Main Body,M-Tack,M Tack
 Yaris,Main Body,Other,Other
 Yaris,Door,CO2,CO2 10
 Yaris,Door,PLC Jig,WRE LH
