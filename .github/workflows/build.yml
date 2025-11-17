@@ -1,26 +1,43 @@
-name: Build Kivy APK
+name: Build Kivy Android APK
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
+
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      - name: Build APK using digreatbrian/buildozer-action
-        uses: digreatbrian/buildozer-action@v2
-        with:
-          python-version: 3.11
-          buildozer-cmd: buildozer -v android debug
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
 
-      - name: Upload APK artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: imclogbook-apk
-          path: ./.buildozer/android/platform/build-*/dists/imclogbook/bin/*.apk
+    - name: Install Buildozer dependencies
+      run: |
+        sudo apt update
+        sudo apt install -y \
+            python3-pip python3-setuptools git zip \
+            openjdk-17-jdk libncurses5 lld \
+            libffi-dev libssl-dev automake autoconf \
+            libtool pkg-config zlib1g-dev
+
+    - name: Install Buildozer
+      run: |
+        pip install --upgrade pip
+        pip install buildozer cython
+
+    - name: Run Buildozer
+      run: |
+        buildozer android debug
+
+    - name: Upload APK Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: maintlogbook-apk
+        path: bin/*.apk
