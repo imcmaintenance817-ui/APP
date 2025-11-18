@@ -1,64 +1,80 @@
-name: Build Kivy Android APK
-# Let's try
-on:
-  push:
-    branches: [ main ]
-  workflow_dispatch:
+name: 'Kivy App to APK'
+description: 'Convert Kivy app to APK'
+inputs:
+  python-version:
+    description: 'Python version to use'
+    default: '3.8'
+  work-dir:
+    default: '.'
+    description: 'Working directory'
+  buildozer-cmd:
+    default: 'buildozer android debug'
+    description: 'Buildozer command to use'
 
-jobs:
-  build-android:
-    runs-on: ubuntu-22.04
+# Add the branding section
+branding:
+  color: 'green'
+  icon: 'play'
 
-    env:
-      ANDROID_HOME: ${{ github.workspace }}/android-sdk
-      PATH: ${{ github.workspace }}/android-sdk/cmdline-tools/latest/bin:${{ github.workspace }}/android-sdk/platform-tools:$PATH
-
-    steps:
-    - name: Install tar
-      run: sudo apt update && sudo apt install -y tar
-
-    - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Setup Python
-      uses: actions/setup-python@v4
+runs:
+  using: "composite"
+  steps:
+    - name: Setup python
+      uses: actions/setup-python@v5
       with:
-        python-version: '3.10'
+        architecture: x64
+        python-version: ${{ inputs.python-version }}
 
-    - name: Install Buildozer dependencies
+    - name: Setup Java 17 required by Gradle
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'temurin'  # or 'zulu','liberica', etc.
+        java-version: '17'
+
+    - name: Set JAVA_HOME
+      run: |
+        echo "JAVA_HOME=$JAVA_HOME" >> $GITHUB_ENV
+      shell: bash
+
+    - name: Prepare virtual environment
+      run: |
+        python3 -m venv venv
+        source venv/bin/activate
+        echo "Using Python==$(python --version)"
+      shell: bash
+      
+    - name: Install and upgrade dependencies
       run: |
         sudo apt update
-        sudo apt install -y \
-            python3-pip python3-setuptools git zip \
-            openjdk-17-jdk libncurses5 lld \
-            libffi-dev libssl-dev automake autoconf \
-            libtool pkg-config zlib1g-dev wget unzip
+        sudo apt install -y git \
+          zip \
+          unzip \
+          openjdk-17-jdk \
+          python3-pip \
+          autoconf \
+          libtool \
+          pkg-config \
+          zlib1g-dev \
+          libncurses5-dev \
+          libncursesw5-dev \
+          libtinfo5 \
+          cmake \
+          libffi-dev \
+          libssl-dev
+        export PATH=$PATH:~/.local/bin/
+        python3 -m pip install --upgrade \
+          Cython==0.29.33 \
+          buildozer
+      shell: bash
 
-    - name: Install Buildozer
+    - name: Install requirements in requirements.txt if it exists
       run: |
-        pip install --upgrade pip
-        pip install buildozer cython
+        if [ -f requirements.txt ]; then
+          python3 -m pip install -r requirements.txt
+        fi
+      shell: bash
 
-    - name: Install Android SDK Command-line Tools
+    - name: Build with Buildozer
       run: |
-        mkdir -p $ANDROID_HOME/cmdline-tools
-        cd $ANDROID_HOME/cmdline-tools
-        wget https://dl.google.com/android/repository/commandlinetools-linux-9477386_latest.zip -O tools.zip
-        unzip tools.zip
-        mv cmdline-tools latest
-        rm tools.zip
-
-    - name: Install Android SDK Packages
-      run: |
-        yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses
-        $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "platform-tools" "platforms;android-33" "build-tools;36.1.0"
-
-    - name: Run Buildozer
-      run: |
-        buildozer android debug
-
-    - name: Upload APK Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: maintlogbook-apk
-        path: bin/**/*.apk
+        ${{ inputs.buildozer-cmd }}
+      shell: bash
