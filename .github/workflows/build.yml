@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-22.04
     env:
       BUILD_DIR: ${{ github.workspace }}
+      ANDROID_HOME: /usr/local/lib/android/sdk
 
     steps:
       - name: Checkout repository
@@ -18,9 +19,8 @@ jobs:
       - name: Setup Python 3.10
         uses: actions/setup-python@v5
         with:
-          python-version: 3.10.13   # Use a specific patch version
+          python-version: 3.10.13
           architecture: x64
-
 
       - name: Setup Java 17 (for Gradle)
         uses: actions/setup-java@v4
@@ -29,8 +29,7 @@ jobs:
           java-version: 17
 
       - name: Set correct JAVA_HOME
-        run: echo "JAVA_HOME=/opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.17-10/x64" >> $GITHUB_ENV
-
+        run: echo "JAVA_HOME=$JAVA_HOME_17_X64" >> $GITHUB_ENV
 
       - name: Install system dependencies
         run: |
@@ -67,7 +66,22 @@ jobs:
             pip install -r requirements.txt
           fi
 
+      - name: Install Android SDK Build-Tools 36.1.0
+        run: |
+          yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "build-tools;36.1.0"
+
+      - name: Accept Android SDK licenses
+        run: |
+          yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses
+
       - name: Build APK with Buildozer
         run: |
           source venv/bin/activate
           buildozer android debug --verbose
+
+      - name: Upload APK Artifact
+        if: success()
+        uses: actions/upload-artifact@v3
+        with:
+          name: APK
+          path: bin/*.apk
