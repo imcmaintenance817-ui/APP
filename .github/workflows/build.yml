@@ -1,13 +1,17 @@
 name: Build Kivy Android APK
-# trying
+
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
 
 jobs:
-  build:
+  build-android:
     runs-on: ubuntu-22.04
+
+    env:
+      ANDROID_HOME: ${{ github.workspace }}/android-sdk
+      PATH: ${{ github.workspace }}/android-sdk/cmdline-tools/latest/bin:${{ github.workspace }}/android-sdk/platform-tools:$PATH
 
     steps:
     - name: Checkout repository
@@ -25,12 +29,26 @@ jobs:
             python3-pip python3-setuptools git zip \
             openjdk-17-jdk libncurses5 lld \
             libffi-dev libssl-dev automake autoconf \
-            libtool pkg-config zlib1g-dev
+            libtool pkg-config zlib1g-dev wget unzip
 
     - name: Install Buildozer
       run: |
         pip install --upgrade pip
         pip install buildozer cython
+
+    - name: Install Android SDK Command-line Tools
+      run: |
+        mkdir -p $ANDROID_HOME/cmdline-tools
+        cd $ANDROID_HOME/cmdline-tools
+        wget https://dl.google.com/android/repository/commandlinetools-linux-9477386_latest.zip -O tools.zip
+        unzip tools.zip
+        mv cmdline-tools latest
+        rm tools.zip
+
+    - name: Install Android SDK Packages
+      run: |
+        yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses
+        $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "platform-tools" "platforms;android-33" "build-tools;36.1.0"
 
     - name: Run Buildozer
       run: |
