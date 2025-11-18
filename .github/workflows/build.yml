@@ -1,80 +1,72 @@
-name: 'Kivy App to APK'
-description: 'Convert Kivy app to APK'
-inputs:
-  python-version:
-    description: 'Python version to use'
-    default: '3.8'
-  work-dir:
-    default: '.'
-    description: 'Working directory'
-  buildozer-cmd:
-    default: 'buildozer android debug'
-    description: 'Buildozer command to use'
+name: Build Kivy APK
 
-# Add the branding section
-branding:
-  color: 'green'
-  icon: 'play'
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
 
-runs:
-  using: "composite"
-  steps:
-    - name: Setup python
-      uses: actions/setup-python@v5
-      with:
-        architecture: x64
-        python-version: ${{ inputs.python-version }}
+jobs:
+  build-android:
+    runs-on: ubuntu-22.04
+    env:
+      BUILD_DIR: ${{ github.workspace }}
 
-    - name: Setup Java 17 required by Gradle
-      uses: actions/setup-java@v4
-      with:
-        distribution: 'temurin'  # or 'zulu','liberica', etc.
-        java-version: '17'
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Set JAVA_HOME
-      run: |
-        echo "JAVA_HOME=$JAVA_HOME" >> $GITHUB_ENV
-      shell: bash
+      - name: Setup Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.10
+          architecture: x64
 
-    - name: Prepare virtual environment
-      run: |
-        python3 -m venv venv
-        source venv/bin/activate
-        echo "Using Python==$(python --version)"
-      shell: bash
-      
-    - name: Install and upgrade dependencies
-      run: |
-        sudo apt update
-        sudo apt install -y git \
-          zip \
-          unzip \
-          openjdk-17-jdk \
-          python3-pip \
-          autoconf \
-          libtool \
-          pkg-config \
-          zlib1g-dev \
-          libncurses5-dev \
-          libncursesw5-dev \
-          libtinfo5 \
-          cmake \
-          libffi-dev \
-          libssl-dev
-        export PATH=$PATH:~/.local/bin/
-        python3 -m pip install --upgrade \
-          Cython==0.29.33 \
-          buildozer
-      shell: bash
+      - name: Setup Java 17 (for Gradle)
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
 
-    - name: Install requirements in requirements.txt if it exists
-      run: |
-        if [ -f requirements.txt ]; then
-          python3 -m pip install -r requirements.txt
-        fi
-      shell: bash
+      - name: Set JAVA_HOME
+        run: |
+          echo "JAVA_HOME=/usr/lib/jvm/java-17-temurin" >> $GITHUB_ENV
 
-    - name: Build with Buildozer
-      run: |
-        ${{ inputs.buildozer-cmd }}
-      shell: bash
+      - name: Install system dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y \
+            build-essential git zip unzip openjdk-17-jdk python3-pip \
+            autoconf libtool pkg-config zlib1g-dev libncurses5-dev \
+            libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev \
+            libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev \
+            libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev \
+            libmtdev-dev xclip xsel libgl1-mesa-dev libgles2-mesa-dev
+
+      - name: Prepare Python virtual environment
+        run: |
+          python3 -m venv venv
+          source venv/bin/activate
+          pip install --upgrade pip
+          pip install Cython==0.29.36 buildozer
+
+      - name: Cache Buildozer / Android platforms
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.buildozer
+            ~/.local/share/android
+          key: ${{ runner.os }}-buildozer-${{ hashFiles('**/buildozer.spec') }}
+          restore-keys: |
+            ${{ runner.os }}-buildozer-
+
+      - name: Install Python requirements (if exists)
+        run: |
+          source venv/bin/activate
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Build APK with Buildozer
+        run: |
+          source venv/bin/activate
+          buildozer android debug --verbose
